@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dynamicstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dynamic Resume</title>
+</head>
+<body>
+    <div id="main-div">
+        <section>
+          <div class="personal">
+           <div>
+            <h1><span id="form_name">Farah Muzaffar</span></h1>
+            <h2><span id="jobtitle">Software Engineer</span></h2>
+           </div>
+           <img src="" alt="profile pic">
+          </div>
+
+          <div class="contact-info">
+            <p class="para"><i class="fa-solid fa-phone"></i> Phone: <span id="Phone">03310350280</span></p>
+            <p class="para"><i class="fa-solid fa-envelope"></i> Email: <span id="email">farahmuzaffar6@gmail.com</span></p>
+            <p class="para"><i class="fa-brands fa-linkedin"></i> LinkedIn: <span id="linkedin">farahmuzaffar6</span></p>
+          </div>
+          
+        </section>
+
+        <section id="objectivesec">
+        <h2 class="heading">Objective</h2>
+        <p class="contpara">Command in HTML, CSS, JavaScript. Seeking to leverage strong problem-solving skills.</p>
+
+        </section>
+
+         <!-- education -->
+        <section id="edusec">
+            <h2 class="heading"> Education:</h2>
+            <p class="contpara"><span id="degree">Bachelor of Computer Science</span></p>
+            <p class="contpara"><span id="university">NED UNIVERSITY</span></p>
+
+        </section>
+
+        <!-- skills -->
+         <section id="skillsec">
+            <h2 class="heading">Skills:</h2>
+            <ul>
+                <li><span id="skill1" class="contpara">HTML & CSS</span></li>
+                <li><span id="skill2" class="contpara">TypeScript</span></li>
+                <li><span id="skill3" class="contpara">JavaScript</span></li>
+            </ul>
+
+         </section>
+
+        <!-- work exp -->
+
+        <section id="workexpsec" class="work-exp">
+            <h2 class="heading">Work Experience:</h2>
+            <p class="contpara"><span id="jobtitleexp">Software Developer</span> at <span id="company">ABC company</span>,<span id="startyear">2022</span> - <span id="endyear">Present</span></p>
+        </section>
+    </div>
+
+     <!-- Buttons -->
+     <div id="btnDiv">
+        <button class="btn" id="printBtn">Print</button>
+        <button class="btn" id="editBtn" >Edit</button>
+          <a href="#" id="resumeLink" class="btn">Shareable Resume Link</a>
+          <button class="btn" id="copyLinkBtn">Copy Link</button>
+          
+      </div>
+    
+</body>
+<script src="dynamicResume.js"></script>
+</html>
